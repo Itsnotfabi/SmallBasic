@@ -1,0 +1,7 @@
+TextWindow.WriteLine("Hallo")
+x=8
+
+start:
+TextWindow.WriteLine(x)
+x=x+1
+Goto start

@@ -1,0 +1,16 @@
+GraphicsWindow.Width=800
+GraphicsWindow.Height=600
+
+Turtle.Speed=10
+
+For i = 1 To 23
+  Turtle.Move(8)
+  Turtle.Turn(57)
+  For j = 1 To 10
+    GraphicsWindow.PenColor=GraphicsWindow.GetRandomColor()
+    GraphicsWindow.BackgroundColor=GraphicsWindow.GetRandomColor()
+    Turtle.Move(30)
+    Turtle.Turn(27)
+    EndFor
+EndFor
+Turtle.Hide()

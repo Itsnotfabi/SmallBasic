@@ -1,0 +1,9 @@
+Turtle.Speed=8
+GraphicsWindow.BackgroundColor="gray"
+GraphicsWindow.Title="The Turtle"
+
+nuclearebombe:
+GraphicsWindow.PenColor=GraphicsWindow.GetRandomColor()
+Turtle.Move(100)
+Turtle.TurnRight()
+Goto nuclearebombe

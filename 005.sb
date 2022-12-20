@@ -1,0 +1,11 @@
+Turtle.Speed=10
+GraphicsWindow.BackgroundColor="gray"
+GraphicsWindow.Title="Nucleare Schildkroete"
+
+nuclearebombe:
+GraphicsWindow.PenColor=GraphicsWindow.GetRandomColor()
+Turtle.Move(100)
+Turtle.TurnRight()
+Turtle.Move(20)
+Turtle.Turn(217)
+Goto nuclearebombe

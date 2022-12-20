@@ -1,0 +1,16 @@
+Turtle.Speed=8
+GraphicsWindow.BackgroundColor="gray"
+GraphicsWindow.Title="Bewegene Schildkroete || Made by Fabian"
+GraphicsWindow.PenColor="red"
+Turtle.Move(100)
+Turtle.TurnRight()
+GraphicsWindow.PenColor="blue"
+Turtle.Move(100)
+Turtle.TurnRight()
+GraphicsWindow.PenColor="green"
+Turtle.Move(100)
+Turtle.TurnRight()
+GraphicsWindow.PenColor="yellow"
+Turtle.Move(100)
+Turtle.TurnRight()
+Turtle.Hide()

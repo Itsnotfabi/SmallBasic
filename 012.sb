@@ -1,0 +1,7 @@
+TextWindow.Title="Name, Date and Clock made by Fabi"
+TextWindow.Write("Bitte Schreibe deinen Namen und bestaetigen sie dies mit Enter: ")
+TextWindow.WriteLine("")
+x = TextWindow.Read()
+TextWindow.ForegroundColor="9"
+TextWindow.WriteLine("Hallo " + x + ", Heute ist der " + Clock.Date + " Und " + Clock.Time + " Uhr")
+TextWindow.ForegroundColor="13"

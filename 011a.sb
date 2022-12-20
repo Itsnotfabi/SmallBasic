@@ -1,0 +1,13 @@
+TextWindow.Title="Rechner (Multiplizierer)"
+TextWindow.ForegroundColor="Blue"
+TextWindow.Write("Multplizierer")
+TextWindow.ForegroundColor="White"
+TextWindow.WriteLine("")
+TextWindow.Write("Bitte erste Zahl eingeben: ")
+x = TextWindow.Read()
+TextWindow.WriteLine("+ (Mal/Multiplizieren mit)")
+TextWindow.Write("Bitte zweite Zahl eingeben: ")
+y = TextWindow.Read()
+'TextWindow.Write("Ergebnis: ")
+TextWindow.ForegroundColor="Green"
+TextWindow.WriteLine("Ergebnis: " + x*y)

@@ -1,0 +1,10 @@
+GraphicsWindow.Width=800
+GraphicsWindow.Height=600
+
+Turtle.Speed=10
+
+For i = 1 To 240
+  Turtle.Move(2)
+  Turtle.Turn(1.5)
+EndFor
+Turtle.Hide()
